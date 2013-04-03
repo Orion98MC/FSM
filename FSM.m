@@ -1,6 +1,6 @@
 //
 //  FSM.m
-//  Fungen
+//  A Simple Finite State Machine
 //
 //  Created by Orion on 29/03/13.
 //  Copyright (c) 2013 Monte-Carlo Computing. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "FSM.h"
 
-#define DEBUG_FSM
+//#define DEBUG_FSM
 
 @interface FSM ()
 @property (retain, nonatomic) NSString *state;
